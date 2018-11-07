@@ -1,0 +1,33 @@
+{
+  "name": "facebookchatbot",
+  "version": "1.0.0",
+  "description": "chat bot for facebook message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phimanh2905/facebookchatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "facebook"
+  ],
+  "author": "Phí Hồng Mạnh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phimanh2905/facebookchatbot/issues"
+  },
+  "homepage": "https://github.com/phimanh2905/facebookchatbot#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "facebook-chat-api": "^1.6.0",
+    "simsimi": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
